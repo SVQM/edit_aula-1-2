@@ -1,0 +1,9 @@
+models:
+  - name: stg_stripe_payment
+    columns:  
+      - name: payment_method
+        tests:
+          - accepted_values:
+              values: 
+                - success
+                - fail
